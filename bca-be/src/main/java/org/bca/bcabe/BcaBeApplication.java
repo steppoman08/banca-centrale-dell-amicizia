@@ -7,7 +7,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class BcaBeApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(BcaBeApplication.class, args);
+        //SpringApplication.run(BcaBeApplication.class, args);
+        System.out.println("Prova avvio e primo commit");
     }
 
 }
