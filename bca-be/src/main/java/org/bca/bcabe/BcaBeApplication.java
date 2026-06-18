@@ -8,7 +8,7 @@ public class BcaBeApplication {
 
     public static void main(String[] args) {
         //SpringApplication.run(BcaBeApplication.class, args);
-        System.out.println("Prova avvio e primo commit");
+        System.out.println("Aggiunta cartella con file db");
     }
 
 }
