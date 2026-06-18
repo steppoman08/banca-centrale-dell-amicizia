@@ -1,0 +1,30 @@
+workflow consigliato per lavorare con git:
+
+
+1. creo branch
+	git checkout -b feature/xxx
+2. scrivo codice
+
+3. controllo cosa ho cambiato
+	git status
+
+4. aggiungo solo quello che serve
+	git add .
+	oppure
+	git add src/main/java/...
+
+5. commit con:
+	git commit -m "add xxx"
+
+6. push con:
+	git push origin feature/xxx
+
+7. merge con:
+	git checkout main
+	git pull origin main
+	git merge feature/xxx
+	git push origin main
+
+8. cancellazione branch
+	git branch -d feature/xxx
+	git push origin --delete feature/xxx
