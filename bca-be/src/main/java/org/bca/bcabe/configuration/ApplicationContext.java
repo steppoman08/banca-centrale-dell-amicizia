@@ -5,7 +5,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
 @Configuration
-@ComponentScan(basePackages = {"org.bca.bcabe.service.impl"})
+@ComponentScan(basePackages = {"org.bca.bcabe.service.impl", "org.bca.bcabe.controller.impl"})
 @EnableJpaRepositories(basePackages = "org.bca.bcabe.repository")
 public class ApplicationContext {
 
